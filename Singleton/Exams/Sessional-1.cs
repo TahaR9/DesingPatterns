@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton.Evaluation
+namespace Exams.Sessionals
 {
     interface IAction
     {
@@ -12,7 +12,6 @@ namespace Singleton.Evaluation
         void Remove();
         void Display();
     }
-
     public class Course : IAction
     {
         public string Title { get; set; }
@@ -37,8 +36,6 @@ namespace Singleton.Evaluation
             //Logic of the method goes here
         }
     }
-
-    
     public class Person : IAction
     {
         public string FullName { get; set; }
@@ -65,11 +62,9 @@ namespace Singleton.Evaluation
         public string Registration { get; set; }
         public List<Course> Courses { get; set; }
     }
-
     public class Faculty : Person
     {
         List<Student> VPStudents { get; set; }
         List<Student> DPStudents { get; set; }
     }
-
 }

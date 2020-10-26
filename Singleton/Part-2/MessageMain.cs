@@ -4,36 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton
+/// <summary>
+/// Sington Pattern Default Scenario with other responsibilities.
+/// i.e Send()
+/// Multiple clients i.e Student, Faculty
+/// </summary>
+namespace Patterns.Singleton.Part2
 {
     public class Student
     {
         public void Register()
         {
-            SingtonMessage m = SingtonMessage.GetInstance();
+            Message m = Message.GetInstance();
             m.Send();
         }
     }
     public class Faculty
     {
-        
         public void DoAttendance()
         {
-            SingtonMessage m = SingtonMessage.GetInstance();
+            Message m = Message.GetInstance();
             m.Send();
         }
     }
     class Program
     {
-        public static Student student = new Student();
-        static void Main(string[] args)
+        static void P2Main(string[] args)
         {
 
-            SingtonMessage msg = SingtonMessage.GetInstance();
-            msg.Send();
-            
-            SingtonMessage msg1 = SingtonMessage.GetInstance();
+            Message msg1 = Message.GetInstance();
             msg1.Send();
+            
+            Message msg2 = Message.GetInstance();
+            msg2.Send();
 
             Student student = new Student();
             student.Register();

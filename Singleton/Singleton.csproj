@@ -43,14 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CourseFolder\CourseFolder.cs" />
+    <Compile Include="Exams\Finalized.cs" />
+    <Compile Include="Part-1\MessageMain.cs" />
+    <Compile Include="Part-1\Message.cs" />
+    <Compile Include="Part-3\Message.cs" />
+    <Compile Include="Part-3\MessageMain.cs" />
+    <Compile Include="Part-2\MessageMain.cs" />
+    <Compile Include="Part-4\Problem\MultiThreaded.cs" />
+    <Compile Include="Part-4\Problem\MultiThreadedMain.cs" />
+    <Compile Include="Part-4\Solution\MultiThreaded.cs" />
+    <Compile Include="Part-4\Solution\MultiThreadedMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quiz-1.cs" />
-    <Compile Include="SingtonMessage.cs" />
+    <Compile Include="Exams\Sessional-1.cs" />
+    <Compile Include="Part-2\Message.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+    <None Include="Exams\Finalized.cd" />
+    <None Include="Exams\ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

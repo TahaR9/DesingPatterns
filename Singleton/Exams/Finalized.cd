@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exams.Sessionals.SessionalOne.Window" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAIAAAAAAQAQAAAAAAAAAAAAAAAACABAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shape" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exams.Sessionals.SessionalOne.Shape" Collapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAACAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exams.Sessionals.SessionalOne.Circle" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEAAAAAAIAAAAAAABAAAAAAQCIAAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_Point" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exams.Sessionals.SessionalOne.Rectangle" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exams.Sessionals.SessionalOne.Polygon" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exams.Sessionals.SessionalOne.Point" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exams\Finalized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
