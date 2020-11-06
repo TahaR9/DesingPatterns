@@ -43,20 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CourseFolder\CourseFolder.cs" />
     <Compile Include="Exams\Finalized.cs" />
-    <Compile Include="Part-1\MessageMain.cs" />
-    <Compile Include="Part-1\Message.cs" />
-    <Compile Include="Part-3\Message.cs" />
-    <Compile Include="Part-3\MessageMain.cs" />
-    <Compile Include="Part-2\MessageMain.cs" />
-    <Compile Include="Part-4\Problem\MultiThreaded.cs" />
-    <Compile Include="Part-4\Problem\MultiThreadedMain.cs" />
-    <Compile Include="Part-4\Solution\MultiThreaded.cs" />
-    <Compile Include="Part-4\Solution\MultiThreadedMain.cs" />
+    <Compile Include="Factory2\FactoryMethod.cs" />
+    <Compile Include="Factory\Part-A\Factory.cs" />
+    <Compile Include="Factory\Part-A\FactoryClient.cs" />
+    <Compile Include="Factory\Part-B\Factory.cs" />
+    <Compile Include="Factory\Part-B\FactoryClient.cs" />
+    <Compile Include="Factory\Part-B\Test.cs" />
+    <Compile Include="Factory\Part-C\Examination.cs" />
+    <Compile Include="Factory\Part-C\ExtendedExam.cs" />
+    <Compile Include="Singleton\Part-1\MessageMain.cs" />
+    <Compile Include="Singleton\Part-1\Message.cs" />
+    <Compile Include="Singleton\Part-3\Message.cs" />
+    <Compile Include="Singleton\Part-3\MessageMain.cs" />
+    <Compile Include="Singleton\Part-2\MessageMain.cs" />
+    <Compile Include="Singleton\Part-4\Problem\MultiThreaded.cs" />
+    <Compile Include="Singleton\Part-4\Problem\MultiThreadedMain.cs" />
+    <Compile Include="Singleton\Part-4\Solution\MultiThreaded.cs" />
+    <Compile Include="Singleton\Part-4\Solution\MultiThreadedMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Exams\Sessional-1.cs" />
-    <Compile Include="Part-2\Message.cs" />
+    <Compile Include="Singleton\Part-2\Message.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

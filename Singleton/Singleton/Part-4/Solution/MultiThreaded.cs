@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 /// <summary>
@@ -9,12 +10,12 @@ using System.Threading.Tasks;
 /// </summary>
 namespace Patterns.Singleton.Part4.Solution
 {
-    public interface IDocument
-    {
-        void Print();
-        void SetDocumentTitle(string title);
-    }
-    public class Printer : IDocument
+    //public interface IDocument
+    //{
+    //    void Print();
+    //    void SetDocumentTitle(string title);
+    //}
+    public class Printer // : IDocument
     {
         private static int Count; //Store instance count
         private static Printer Instance; //Store instance object

@@ -14,7 +14,7 @@ namespace Patterns.Singleton.Part4.Problem
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main_problem(string[] args)
         {
             //Printer document1 = Printer.GetInstance();
             //document1.SetDocumentTitle("Price List of New Products");
