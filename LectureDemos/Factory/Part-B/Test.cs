@@ -56,7 +56,6 @@ namespace Singleton.Factory.PartB
         public Final(string title) : base(title) { }
 
     }
-
     public abstract class ExamFactory
     {
         List<Test> _Tests = new List<Test>();

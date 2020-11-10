@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exam.AbstractFactory.PartB.TestType" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.Assignment" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.Quiz" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.Sessional" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.Final" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.Other" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.TestFactory" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAAAAAAEAAAAAAAAAAAIAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.AllTestFactory" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.AssignmentFactory" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.QuizFactory" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.SessionalFactory" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.FinalTermFactory" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.ExamFactory" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam.AbstractFactory.PartB.ExamClient" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>AbstractFactory\Part-C\Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

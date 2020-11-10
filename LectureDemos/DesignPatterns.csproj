@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{47B95015-635A-4456-969B-5CE3C74966E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Singleton</RootNamespace>
-    <AssemblyName>Singleton</AssemblyName>
+    <RootNamespace>PareDox.Patterns</RootNamespace>
+    <AssemblyName>PareDox.Patterns</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\Part-A\BasicAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\Part-C\Examination.cs" />
+    <Compile Include="AbstractFactory\Part-A\GangOfFour.cs" />
     <Compile Include="Exams\Finalized.cs" />
     <Compile Include="Factory2\FactoryMethod.cs" />
     <Compile Include="Factory\Part-A\Factory.cs" />
@@ -51,7 +54,6 @@
     <Compile Include="Factory\Part-B\FactoryClient.cs" />
     <Compile Include="Factory\Part-B\Test.cs" />
     <Compile Include="Factory\Part-C\Examination.cs" />
-    <Compile Include="Factory\Part-C\ExtendedExam.cs" />
     <Compile Include="Singleton\Part-1\MessageMain.cs" />
     <Compile Include="Singleton\Part-1\Message.cs" />
     <Compile Include="Singleton\Part-3\Message.cs" />
@@ -66,9 +68,11 @@
     <Compile Include="Singleton\Part-2\Message.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AbstractFactory\Part-C\AbastractFactory.cd" />
     <None Include="App.config" />
     <None Include="Exams\Finalized.cd" />
     <None Include="Exams\ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
