@@ -8,7 +8,7 @@ namespace Patterns.Factory.PartA
 {
     public class FactoryClient
     {
-        public static void Main_factory_partA(string[] args)
+        public static void Main_ooa(string[] args)
         {
             Creator creator = new ConcreteCreator();
 

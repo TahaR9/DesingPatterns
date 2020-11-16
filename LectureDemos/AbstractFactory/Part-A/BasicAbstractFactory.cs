@@ -83,11 +83,12 @@ namespace PareDox.Patterns.AbstractFactory.Implementation.Basic
                 default:
                     throw new ArgumentException("Invalid type factory", type.ToString());
             }
-        }      
+        }
     }
+
     public class ExecuteDemo
     {
-        public static void Mainxxx(string[] args)
+        public static void Main_xx(string[] args)
         {
             //Client client1  = new Client(new ConcreteFactory1());
             //client1.Factory.CreateProductA();
@@ -103,6 +104,7 @@ namespace PareDox.Patterns.AbstractFactory.Implementation.Basic
             AbstractFactory factory2 = Client.GetFactory(FactoryType.FACTORY2);
             factory2.CreateProductA();
             factory2.CreateProductB();
+
             Console.ReadKey();
         }
     }

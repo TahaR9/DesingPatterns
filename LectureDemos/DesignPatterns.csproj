@@ -44,8 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\Part-A\BasicAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\Part-B\Plateform.cs" />
+    <Compile Include="AbstractFactory\Part-B\Vehicle.cs" />
     <Compile Include="AbstractFactory\Part-C\Examination.cs" />
     <Compile Include="AbstractFactory\Part-A\GangOfFour.cs" />
+    <Compile Include="AbstractFactory\WhatMobile\AbstractFactory.cs" />
+    <Compile Include="Builder\Basic Implementation\ComputerBuilder.cs" />
+    <Compile Include="Builder\Basic Implementation\SimpleBuilder.cs" />
+    <Compile Include="Builder\Part-A\SimpleBuilder.cs" />
     <Compile Include="Exams\Finalized.cs" />
     <Compile Include="Factory2\FactoryMethod.cs" />
     <Compile Include="Factory\Part-A\Factory.cs" />
@@ -54,6 +60,7 @@
     <Compile Include="Factory\Part-B\FactoryClient.cs" />
     <Compile Include="Factory\Part-B\Test.cs" />
     <Compile Include="Factory\Part-C\Examination.cs" />
+    <Compile Include="Factory\Part-D\ExtendedExam.cs" />
     <Compile Include="Singleton\Part-1\MessageMain.cs" />
     <Compile Include="Singleton\Part-1\Message.cs" />
     <Compile Include="Singleton\Part-3\Message.cs" />

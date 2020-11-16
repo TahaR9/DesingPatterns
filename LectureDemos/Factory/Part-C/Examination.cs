@@ -77,13 +77,14 @@ namespace Exam.Factory.PartC
     }
     public class ExamClient
     {
-        public static void Main_Exam(string[] args)
+        public static void Main_mm(string[] args)
         {
             List<Exam> exams = new List<Exam>()
             {
                 new ExamFactory("Fall 2020"),
-                new ExamFactory("Sprint 2021"),
+                new ExamFactory("Spring 2021"),
                 new ExamFactory("Fall 2021"),
+                new ExamFactory("Spring 2022"),
             };
             var index = 1;
             foreach (var exam in exams)
